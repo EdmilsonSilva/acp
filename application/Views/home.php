@@ -1,0 +1,1 @@
+<p>This is an MVP to organize your activities</p>

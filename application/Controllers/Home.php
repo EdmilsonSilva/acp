@@ -1,12 +1,14 @@
 <?php namespace App\Controllers;
 
 use CodeIgniter\Controller;
+use App\Helpers\Layout;
 
 class Home extends Controller
 {
 	public function index()
 	{
-		return $this->view('home');
+		$layout = new Layout();
+		return $layout->get_layout('home');
 	}
 
 	//--------------------------------------------------------------------
